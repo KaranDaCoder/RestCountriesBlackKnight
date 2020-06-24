@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.rutledgepaulv</groupId>
+		<artifactId>maven</artifactId>
+		<version>1.1</version>
+	</parent>
+
+	<version>0.0.1-SNAPSHOT</version>
+	<groupId>RestCountries</groupId>
+	<artifactId>com.restcountries.bk</artifactId>
+
+	<name>com.restcountries.bk</name>
+	<url>https://github.com/rutledgepaulv/com.restcountries.bk</url>
+	<description><!-- A riveting description --></description>
+
+	<scm>
+		<url>https://github.com/rutledgepaulv/com.restcountries.bk</url>
+		<connection>scm:git:git@github.com:rutledgepaulv/com.restcountries.bk.git</connection>
+	</scm>
+
+	<ciManagement>
+		<system>travis</system>
+		<url>https://travis-ci.org/rutledgepaulv/com.restcountries.bk</url>
+	</ciManagement>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/rutledgepaulv/com.restcountries.bk/issues</url>
+	</issueManagement>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20200518</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+</project>
